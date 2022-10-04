@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableConfigServer //Enabling config server to pick up values from central local git repo
+@EnableConfigServer
 @SpringBootApplication
 public class SpringCloudConfigServerApplication {
 
